@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Before Swapping</h2>
+    <p id="demo"></p>
+    <h2>After Swapping</h2>
+    <p id="demo1"></p>
+    <script>
+        var temp;
+        var a=10;
+        var b=20;
+        document.getElementById("demo").innerHTML="<br> a=" +a +"<br> b=" +b
+        temp=a;
+        a=b;
+        b=temp;
+        document.getElementById("demo1").innerHTML="<br> a=" +a +"<br> b=" +b
+
+    </script>
+</body>
+</html>
